@@ -19,7 +19,7 @@
 9. The line will cause an Error because the value of `i` is out of the scope as it is only visible inside of its `for` loop. This will also cause issues in terms of scope as the `console.log` command is out of the scope of the `for` loop.
 10. This will cause an error as the `const` type does not allow reassignments of its value. This will also cause issues in terms of scope as the `console.log` command is out of the scope of the `for` loop.
 11. There will be no scope issues as the value and print command are assigned and called within the function scope, thus the value of `finalPrice` that should be printed is `0`.
-12. Due to both scoping errors and `const` value errors, the function will not be able to return anything.
+12. Due to both scoping errors and `const` value errors, the function will not be able to compute the actual prices. However, it will push the `const` value of `finalPrice` to `discounted`, which will result in a returned array: `[0, 0, 0]`.
 13. Accessing JSON
     1. `student["name"];`
     2. `student["Grad Year"];`
