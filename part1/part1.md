@@ -16,7 +16,6 @@
 8. Assuming the `console.log` errors don't get in the way, the function will return the array, `[50, 100, 150]`.
    1. The function will iterate over the prices and give them their proper discounts.
    2. Each discounted price will be added to an array that will be returned.
-   - However, if the errors are to be considered, then the function will not be able to return as it will just spit out the first error.
 9. The line will cause an Error because the value of `i` is out of the scope as it is only visible inside of its `for` loop. This will also cause issues in terms of scope as the `console.log` command is out of the scope of the `for` loop.
 10. This will cause an error as the `const` type does not allow reassignments of its value. This will also cause issues in terms of scope as the `console.log` command is out of the scope of the `for` loop.
 11. There will be no scope issues as the value and print command are assigned and called within the function scope, thus the value of `finalPrice` that should be printed is `0`.
